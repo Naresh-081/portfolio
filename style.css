@@ -126,3 +126,90 @@ a:hover{
 .hamburger-icon span:last-child{
   transform: none;
 }
+
+/*section*/
+section{
+  height: 96vh;
+  padding-top: 4vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+#profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+.section-pic-container{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 100px;
+}
+.section-text{
+  text-align: center;
+  align-self: center;
+}
+.section-text p{
+  font-weight: 600;
+
+}
+.section-text-p1, .section-role{
+  text-align: center;
+}
+.section-text-p1, .section-role{
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.title{
+  font-size: 3rem;
+  text-align: center;
+}
+.social-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1 rem;  
+}
+/*icon*/
+.icon{
+  cursor: pointer;
+  height: 2rem;
+  margin-left:10px ;
+}
+/*button*/
+.button-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.resume,.Contact{
+  font-weight: 600;
+  transition: all 300ms ease-in-out; 
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+.resume,.Contact{
+  border: rgb(53,53,53) 0.1rem solid;
+
+}
+.resume:hover,.Contact:hover{
+  cursor: pointer;
+
+}
+.resume:hover,.Contact{
+  background: rgb(53,53,53);
+  color: white;
+}
+.Contact:hover{
+  background: rgb(0,0,0);
+
+}
+.resume{
+  background: none;
+}
+.resume:hover{
+  background: rgb(255,255,255) 0.1rem solid;
+}
